@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEC900"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/image"
+        android:contentDescription="@string/headphones"
+        android:src="@drawable/headphone_one" />
+
+    <TextView
+        android:id="@+id/song_info"
+        style="@style/textViewStyle"
+        android:text="@string/songs" />
+
+    <View style="@style/view" />
+
+    <TextView
+        android:id="@+id/music_player"
+        style="@style/textViewStyle"
+        android:text="@string/music_player" />
+
+
+</LinearLayout>

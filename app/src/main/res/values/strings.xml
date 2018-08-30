@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mPlay</string>
+    <string name="headphones">headphones</string>
+    <string name="songs">Songs</string>
+    <string name="music_player">Music Player</string>
+    <string name="home">Home</string>
+    <string name="np">Playing</string>
+    <string name="contentDes">now playing icon</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9912</color>
+    <color name="colorPrimaryDark">#9C661F</color>
+    <color name="colorAccent">#FFD700</color>
+    <color name="intentView">#87CEFA</color>
+</resources>
