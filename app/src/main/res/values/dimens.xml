@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="weight_value">0dp</dimen>
+    <dimen name="text_view_leftPad">16dp</dimen>
+    <dimen name="image_top_pad">32dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="intent_height">88dp</dimen>
+    <dimen name="intent_leftPad">32dp</dimen>
+    <dimen name="listV_leftPad">16dp</dimen>
+    <dimen name="playIconPad">80dp</dimen>
+    <dimen name="playIconPadLeft">60dp</dimen>
+</resources>

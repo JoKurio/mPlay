@@ -6,4 +6,8 @@
     <string name="home">Home</string>
     <string name="np">Playing</string>
     <string name="contentDes">now playing icon</string>
+    <string name="BoRhap">Bohemian Rhapsody</string>
+    <string name="Q">Queen</string>
+    <string name="hits">Hits</string>
+    <string name="rock">Rock</string>
 </resources>

@@ -10,48 +10,48 @@
 
     <style name="textViewStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/weight_value</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:textSize">28sp</item>
+        <item name="android:textSize">@dimen/text_size</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingLeft">@dimen/text_view_leftPad</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:background">#9C661F</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
     </style>
 
     <style name="image">
         <item name="android:layout_weight">4</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/weight_value</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:paddingTop">32dp</item>
+        <item name="android:paddingTop">@dimen/image_top_pad</item>
     </style>
 
     <style name="view">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">2dp</item>
-        <item name="android:background">#000000</item>
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:background">@color/black</item>
     </style>
 
     <style name="intentView">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/weight_value</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">88dp</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:paddingLeft">32dp</item>
+        <item name="android:layout_height">@dimen/intent_height</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:paddingLeft">@dimen/intent_leftPad</item>
         <item name="android:gravity">center_vertical</item>
     </style>
 
     <style name="listViewStyle">
-        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingLeft">@dimen/listV_leftPad</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
 
     </style>
 
     <style name="playIconStyle">
-        <item name="android:paddingTop">80dp</item>
-        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingTop">@dimen/playIconPad</item>
+        <item name="android:paddingLeft">@dimen/playIconPadLeft</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_horizontal</item>

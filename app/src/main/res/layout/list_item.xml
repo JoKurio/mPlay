@@ -7,27 +7,23 @@
 
     <TextView
         android:id="@+id/song_title"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        tools:text="Bohemian Rhapsody" />
+        style="@style/listViewStyle"
+        tools:text="@string/BoRhap" />
 
 
     <TextView
         android:id="@+id/artist_name"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        tools:text="Queen" />
+        style="@style/listViewStyle"
+        tools:text="@string/Q" />
 
     <TextView
         android:id="@+id/album_name"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        tools:text="Hits" />
+        style="@style/listViewStyle"
+        tools:text="@string/hits" />
 
     <TextView
         android:id="@+id/song_type"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        tools:text="Rock" />
+        style="@style/listViewStyle"
+        tools:text="@string/rock" />
 
 </LinearLayout>
